@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Nanum+Pen+Script&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Pretendard", system-ui, sans-serif;
+  --font-serif: "Playfair Display", "Pretendard", serif;
+  --font-display: "Playfair Display", "Pretendard", serif;
+  --font-hand: "Nanum Pen Script", cursive;
+  
+  --color-natural-bg: #F8F7F2;
+  --color-natural-text: #4A4A4A;
+  --color-natural-primary: #6B705C;
+  --color-natural-dark: #5A5A40;
+  --color-natural-border: #E5E2D9;
+  --color-natural-border-dark: #D1CDC0;
+  --color-natural-light: #FAF9F6;
+  --color-natural-accent: #F1EDE4;
+}
+
+body {
+  background-color: var(--color-natural-bg);
+  color: var(--color-natural-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 스크롤바 커스텀 및 예쁜 효과들 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-natural-accent);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-natural-border-dark);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-natural-primary);
+}

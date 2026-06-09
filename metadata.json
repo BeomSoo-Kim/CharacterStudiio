@@ -1,0 +1,10 @@
+{
+  "name": "캐릭터 메이커",
+  "description": "사진 한 장으로 나만의 캐릭터 스타일 일러스트를 쉽게 만들어보세요.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
